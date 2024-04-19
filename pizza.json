@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Pizza",
+        "price": 200,
+        "image": "images/properlysaved/pizza1.jpeg"
+    },
+    {
+        "id": 2,
+        "name":" Pizza",
+        "price": 250,
+        "image": "images/properlysaved/pizza2.jpeg"
+    },
+    {
+        "id": 3,
+        "name":" Pizza",
+        "price": 290,
+        "image": "images/properlysaved/pizza3.jpeg"
+    },
+    {
+        "id": 4,
+        "name":" Pizza",
+        "price": 200,
+        "image": "images/properlysaved/pizza4.jpeg"
+    },
+    {
+        "id": 5,
+        "name":" Pizza",
+        "price": 300,
+        "image": "images/properlysaved/pizza5.jpeg"
+    },
+    {
+        "id": 6,
+        "name":" Pizza",
+        "price": 200,
+        "image": "images/properlysaved/pizza6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Pizza",
+        "price": 200,
+        "image": "images/properlysaved/pizza7.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Pizza",
+        "price": 200,
+        "image": "images/properlysaved/pizza8.jpg"
+    }
+
+]

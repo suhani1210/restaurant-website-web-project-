@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website(main page)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssfile.css">
+    <link rel="stylesheet" type="text/css" href="review.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+ 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+     <script src="https://kit.fontawesome.com/ec85435ab3.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+   
+  <nav class="navigation">
+        
+
+    <div class="logo">
+      
+
+        <img src="images/cherrybgdark.png" alt="logo"  >
+    </div>
+            
+    <div class="bar_icon" id="menu-btn" style="display: none;">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+            <div class="navlist">
+                <ul style=" list-style: none;" >
+
+                    <div class="navb">
+                        <li ><a href="index.html">Home</a></li>
+                    </div>
+                    <div class="navb">
+                        <li><a href="#id">About Us</a></li>
+                    </div>
+                    <div class="navb"><li><a href="#reviews">Reviews</a></li>
+                    </div>
+                    <div class="navb">
+                        <li><a href="menucontainer.html" target="_blank">Menu</a></li>
+                    </div>
+                    <div class="navb">
+                        <li><a href="form.html" target="_blank">Contact</a></li>
+                    </div>
+                    <div class="navb">
+                        <li  ><a  href="book.html" target="_blank">Book a Table</a></li>
+                    </div>
+                   
+                   
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        
+    </nav>
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="images/goldenbg.png" alt="">
+            
+            </div>
+            <div class="item">
+                <img src="images/swiper-back.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/bgs1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/bgs2.png" alt="">
+            </div>
+          
+           
+            <div class="item">
+                <img src="images/properlysaved/poster4.png" alt="">
+            </div>
+            <div class="item">
+                <img src="images/goldenbg.png" alt="">
+            
+            </div>
+           
+      
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+  <section class="about" id="id">
+        <div class="image">
+            
+            <img src="images/teampicgrp.jpg" alt="">
+
+        </div>
+
+        <div class="content">
+            <h3 class="title">Meet Our Team</h3>
+            <p>Welcome to Cherry Tree Cafe! Step into our cozy corner under the cherry trees, where every bite is tasty and every sip is yummy. From our fresh, delicious coffees to our homemade treats, we're here to make your day brighter. Whether you're stopping by for a quick snack or a leisurely meal, we're excited to have you with us
+                . So come on in, take a seat, and let's make some tasty memories together!</p>
+        
+        <a href="team.html" class="btn" target="_blank"> our team</a>
+        <div class="icons-container">
+
+            <div class="icons">
+                <img src="images/dish.png" alt="">
+                <h3>quality food</h3>
+            </div>
+            <div class="icons">
+                <img src="images/drinkkpink.png" alt="">
+                <h3>food &drink</h3>
+            </div>
+            <div class="icons">
+                <img src="images/expertchef.png" alt="">
+                <h3>expert chef</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    </section>
+
+    <section class="food" id="food">
+        <div class="heading">
+            <span>popular dishes</span>
+            <h3>our delicious food</h3>
+        </div>
+        <div class=" swiper food-slider">
+            <div class="swiper-wrapper">
+
+                <div class=" swiper-slide slide" data-name="food-1">
+                    <img src="images/blog1.jpg" alt="">
+                    <h3>cold coffee</h3>
+                    <div class="price">350</div>
+
+
+                </div>
+                <div class=" swiper-slide slide" data-name="food-2">
+                    <img src="images/blog2.jpg" alt="">
+                    <h3>Veg dinner platter</h3>
+                    <div class="price">200</div>
+
+
+                </div>
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="images/blog3.jpg" alt="">
+                    <h3>super salad burger</h3>
+                    <div class="price">300</div>
+
+
+                </div>
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="images/bt4.jpg" alt="">
+                    <h3>healthy granola meal</h3>
+                    <div class="price">250</div>
+
+
+                </div>
+                <div class=" swiper-slide slide" data-name="food-5">
+                    <img src="images/breakfast1.jpg" alt="">
+                    <h3>club sandwich</h3>
+                    <div class="price">250</div>
+
+
+                </div>
+                <div class="swiper-slide slide" data-name="food-6">
+                    <img src="images/breakfast2.jpg" alt="">
+                    <h3>aloo paratha</h3>
+                    <div class="price">250</div>
+
+
+                </div>
+                <div class="swiper-slide slide" data-name="food-7">
+                    <img src="images/breakfast3.jpg" alt="">
+                    <h3>Paneer Tikka Roll</h3>
+                    <div class="price">300</div>
+
+
+                </div>
+             
+               
+              
+                <div class="swiper-slide slide" data-name="food-9">
+                    <img src="images/lunch2.jpg" alt="">
+                    <h3>fish steak</h3>
+                    <div class="price">450</div>
+
+
+                </div>
+               
+                <div class="swiper-slide slide" data-name="food-11">
+                    <img src="images/si1.png" alt="">
+                    <h3>paneer masala</h3>
+                    <div class="price">300</div>
+
+
+                </div>
+                <div class="swiper-slide slide" data-name="food-12">
+                    <img src="images/si2.png" alt="">
+                    <h3>chole kulche</h3>
+                    <div class="price">300</div>
+
+
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-13">
+                    <img src="images/dinner1.jpg" alt="">
+                    <h3>barbeque chicken</h3>
+                    <div class="price">500</div>
+
+
+                </div>
+                <div class="swiper-slide slide" data-name="food-14">
+                    <img src="images/dinner2.jpg" alt="">
+                    <h3>palak panner</h3>
+                    <div class="price">300</div>
+
+
+                </div>
+                <div class="swiper-slide slide" data-name="food-15">
+                    <img src="images/dinner3.jpg" alt="">
+                    <h3>banana curry</h3>
+                    <div class="price">300</div>
+
+
+                </div>
+
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+
+    </section >
+
+    <section class=" food-preview-container">
+
+        <div id="close-preview" class=" fas fa-times">
+
+
+        </div>
+
+        <div class="food-preview " data-target="food-1">
+
+            <img src="images/blog1.jpg" alt="">
+            <h3>Cold coffee</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>coffee blended with chocolate and served with
+                whipped cream topping and irish cream
+
+            </p>
+            <div class="price">350</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-2">
+
+            <img src="images/blog2.jpg" alt="">
+            <h3>Veg breakfast platter</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Baked beans on toast served with saute vegetables and hash
+                brown Potato
+
+            </p>
+            <div class="price">200</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-3">
+
+            <img src="images/blog3.jpg" alt="">
+            <h3>super salad burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lettuce, Onion, Tomato, Cucumber. Jalapeno,
+                Lemon Dressing, Cheese
+
+            </p>
+            <div class="price">300</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-4">
+
+            <img src="images/bt4.jpg" alt="">
+            <h3>healthy granola meal</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Granola, seasonal fruits, berries and nuts, Chia seeds with greek
+                yogurt
+
+            </p>
+            <div class="price">250</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-5">
+
+            <img src="images/breakfast1.jpg" alt="">
+            <h3>club sandwich</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Choice between LTC or Egg and chicken served with fries
+                and salad on the side
+
+            </p>
+            <div class="price">250</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-6">
+
+            <img src="images/breakfast2.jpg" alt="">
+            <h3>delicious food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">250</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-7">
+
+            <img src="images/breakfast3.jpg" alt="">
+            <h3>Paneer Tikka Roll</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>
+                Paneer cubes, grilled and wrapped with a mint relish
+
+            </p>
+            <div class="price">300</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-8">
+
+            <img src="images/lunch1.jpg" alt="">
+            <h3>biryani</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">500</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-9">
+
+            <img src="images/lunch2.jpg" alt="">
+            <h3>fish steak</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">450</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-10">
+
+            <img src="images/lunch3.jpg" alt="">
+            <h3>indian thali</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">500</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-11">
+
+            <img src="images/si1.png" alt="">
+            <h3>paneer masala</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">300</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-12">
+
+            <img src="images/si2.png" alt="">
+            <h3>chole kulche</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">300</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-13">
+
+            <img src="images/dinner1.jpg" alt="">
+            <h3>barbeque chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">500</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-14">
+
+            <img src="images/dinner2.jpg" alt="">
+            <h3>palak panner</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">300</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+        <div class="food-preview" data-target="food-15">
+
+            <img src="images/dinner3.jpg" alt="">
+            <h3>banana curry</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.
+                 Architecto, accusantium.
+
+            </p>
+            <div class="price">300</div>
+            <a href="#" class="btn">buy now</a>
+
+        </div>
+
+        
+
+
+
+    </section>
+
+    <section class="gallery" id="gallery" >
+
+        <div class="heading">
+            <span> our gallery</span>
+            <h3>our untold stories</h3>
+
+
+
+        </div>
+
+        <div class="gallery-container">
+
+            <a href="images/gallery 111.jpeg" class="box">
+                <img src="images/gallery 111.jpeg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            
+            <a href="images/gallery22.jpeg" class="box">
+                <img src="images/gallery22.jpeg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+
+            
+            <a href="images/f1.jpg" class="box">
+                <img src="images/f1.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            
+            <a href="images/gallery11.jpeg" class="box">
+                <img src="images/gallery11.jpeg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            
+            <a href="images/gallery5.jpeg" class="box">
+                <img src="images/gallery5.jpeg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            
+            <a href="images/gallery6.jpeg" class="box">
+                <img src="images/gallery6.jpeg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            
+            <a href="images/gallery7.jpeg" class="box">
+                <img src="images/gallery7.jpeg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            <a href="images/properlysaved/bread3.jpg" class="box">
+                <img src="images/properlysaved/bread3.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            <a href="images/gallery9.jpg" class="box">
+                <img src="images/gallery9.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+
+
+            </a>
+            
+
+        </div>
+
+
+    </section>
+
+    <section class="menu" id="menu">
+
+        <div class="heading">
+            <span>our menu</span>
+            <h3>our popular dishes</h3>
+        </div>
+
+        <div class=" swiper menu-slider">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide slide">
+                    <h3 class="title">mocktails & shakes</h3>
+                    <div class="box-container">
+
+                        <div class="box">
+                            <div class="info">
+                                <h3>watermelon mojito</h3>
+                                <p>Indulge in our signature Mojito Madness: A refreshing blend of muddled mint, zesty lime, and crisp rum, topped with a sparkling splash of soda. </p>
+                            </div>
+                            <div class="price">50</div>
+
+                        </div>
+
+                        <div class="box">
+                            <div class="info">
+                                <h3> virgin mojito</h3>
+                                <p>A tantalizing concoction of freshly muddled mint, tangy lime, and premium rum, finished with a burst of effervescent soda.</p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3> mint lime soda</h3>
+                                <p>it's a refreshing delight topped with sparkling soda</p>
+                            </div>
+                            <div class="price">165</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3> orea shake</h3>
+                                <p>Creamy vanilla ice cream blended with crushed Oreos, topped with whipped cream</p>
+                            </div>
+                            <div class="price">185</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>strawberry shake</h3>
+                                <p>Fresh strawberries blended with creamy ice cream, crowned with whipped cream and a cherry</p>
+                            </div>
+                            <div class="price">185</div>
+
+                        </div>
+                     
+
+                    </div>
+
+
+
+                </div>
+                <div class=" swiper-slide slide">
+                    <h3 class="title"> chinese</h3>
+                    <div class="box-container">
+
+                        
+                        <div class="box">
+                            <div class="info">
+                                <h3>drums of heaven</h3>
+                                <p>From savory stir-fries to succulent dumplings, each dish is crafted with authentic flavors and premium ingredients, promising a feast for the senses </p>
+                            </div>
+                            <div class="price">295</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>spring roll</h3>
+                                <p>From savory stir-fries to succulent dumplings, each dish is crafted with authentic flavors and premium ingredients, promising a feast for the senses </p>
+                            </div>
+                            <div class="price">185</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>honey chilli potato</h3>
+                                <p>From savory stir-fries to succulent dumplings, each dish is crafted with authentic flavors and premium ingredients, promising a feast for the senses </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>pepper chilli</h3>
+                                <p>From savory stir-fries to succulent dumplings, each dish is crafted with authentic flavors and premium ingredients, promising a feast for the senses </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>veg manchurian</h3>
+                                <p>From savory stir-fries to succulent dumplings, each dish is crafted with authentic flavors and premium ingredients, promising a feast for the senses </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        
+                    </div>
+
+
+
+                </div>
+
+                <div class=" swiper-slide slide">
+                    <h3 class="title">pizza </h3>
+                    <div class="box-container">
+
+                       
+                        <div class="box">
+                            <div class="info">
+                                <h3>margerita</h3>
+                                <p>From savory stir-fries to succulent dumplings, each dish is crafted with authentic flavors and premium ingredients, promising a feast for the senses </p>
+                            </div>
+                            <div class="price">355</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>farmhouse</h3>
+                                <p> Crisp crusts, premium toppings, and endless flavor. </p>
+                            </div>
+                            <div class="price">350</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>peri peri paneer</h3>
+                                <p> Crisp crusts, premium toppings, and endless flavor. </p>
+                            </div>
+                            <div class="price">350</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>paneer tikka</h3>
+                                <p> Crisp crusts, premium toppings, and endless flavor. </p>
+                            </div>
+                            <div class="price">350</div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class=" swiper-slide slide">
+                    <h3 class="title">smoothies</h3>
+                    <div class="box-container">
+
+                        <div class="box">
+                            <div class="info">
+                                <h3>banana kiwi mint</h3>
+                                <p> Bursting with ripe fruits and wholesome ingredients for a delicious and nutritious pick-me-up. </p>
+                            </div>
+                            <div class="price">185</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>banana mango mint</h3>
+                                <p> Bursting with ripe fruits and wholesome ingredients for a delicious and nutritious pick-me-up. </p>
+                            </div>
+                            <div class="price">185</div>
+
+                        </div>
+                       
+                        <div class="box">
+                            <div class="info">
+                                <h3>chocolate peanut butter</h3>
+                                <p> Bursting with ripe fruits and wholesome ingredients for a delicious and nutritious pick-me-up. </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>hazelnut frappe</h3>
+                                <p> Bursting with ripe fruits and wholesome ingredients for a delicious and nutritious pick-me-up. </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>hazelnut frappe</h3>
+                                <p> Bursting with ripe fruits and wholesome ingredients for a delicious and nutritious pick-me-up. </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">desssert</h3>
+                    <div class="box-container">
+
+                        <div class="box">
+                            <div class="info">
+                                <h3>walnut brwonie</h3>
+                                <p>Satisfy your sweet cravings: Irresistible desserts for every taste bud. </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>churros with nutella</h3>
+                                <p>Satisfy your sweet cravings: Irresistible desserts for every taste bud. </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>fruit yogurt bowl</h3>
+                                <p>Satisfy your sweet cravings: Irresistible desserts for every taste bud. </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>ice cream scoop</h3>
+                                <p>Satisfy your sweet cravings: Irresistible desserts for every taste bud. </p>
+                            </div>
+                            <div class="price">150</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>sweet dessert</h3>
+                                <p>Satisfy your sweet cravings: Irresistible desserts for every taste bud. </p>
+                            </div>
+                            <div class="price">50</div>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>sweet dessert</h3>
+                                <p>Satisfy your sweet cravings: Irresistible desserts for every taste bud.</p>
+                            </div>
+                            <div class="price">50</div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+   
+
+    <div class="testimonials-section" id="reviews">
+	
+        <!-- Section Header Starts -->
+        <header class="section-header">
+            <h1>What Clients Say</h1>
+        </header>
+        <!-- Section Header Ends -->
+    
+        <!-- Owl Carousel Slider Starts -->
+        <div class="owl-carousel owl-theme testimonials-container">
+            <!-- Item1 Starts -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Delicious food</h2>
+                    </div>
+                    <p>From the moment we stepped into this charming restaurant,
+                        we were greeted with warmth and hospitality. The ambiance
+                        was delightful, and the food surpassed our expectations. Every
+                        dish was bursting with flavor, and the presentation was
+                        impeccable. A truly memorable dining experience that we
+                        can't wait to repeat.</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/avatar1.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Rick Thomson</span>
+                        <span>CEO of delightful</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Item1 Ends -->
+    
+            <!-- Item2 Starts -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Food is tasty</h2>
+                    </div>
+                    <p>What a culinary gem! Our evening at this restaurant was
+                        nothing short of extraordinary. The attention to detail in every
+                        aspect, from the decor to the service, was remarkable. And the
+                        food? Simply divine. Each bite was a burst of culinary bliss,
+                        leaving us eager to return for more Each bite was a burst of culinary bliss,
+                        leaving us eager to return for more</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/avatar2.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>John Doe</span>
+                        <span>CEO of pastrymall</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Item2 Ends -->
+    
+            <!-- Item3 Starts -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Salad is fresh</h2>
+                    </div>
+                    <p>We stumbled upon this restaurant by chance and were
+                        pleasantly surprised by the gastronomic journey it offered.
+                        The menu boasted a fusion of flavors that intrigued our taste
+                        buds. With each dish expertly crafted and bursting with
+                        freshness, it's evident that the chefs here are passionate
+                        about their craft. A definite must-visit for any food enthusiast!</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/avatar3.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Henry A.</span>
+                        <span>Researcher at FSSAI</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Item3 Ends -->
+    
+            <!-- Item4 Starts -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Salad is fresh</h2>
+                    </div>
+                    <p>We stumbled upon this restaurant by chance and were
+                        pleasantly surprised by the gastronomic journey it offered.
+                        The menu boasted a fusion of flavors that intrigued our taste
+                        buds. With each dish expertly crafted and bursting with
+                        freshness, it's evident that the chefs here are passionate
+                        about their craft. A definite must-visit for any food enthusiast!</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/avatar3.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Biden.</span>
+                        <span>prof at FSSAI</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Item4 Ends -->
+    
+            <!-- Item5 Starts -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Salad is fresh</h2>
+                    </div>
+                    <p>We stumbled upon this restaurant by chance and were
+                        pleasantly surprised by the gastronomic journey it offered.
+                        The menu boasted a fusion of flavors that intrigued our taste
+                        buds. With each dish expertly crafted and bursting with
+                        freshness, it's evident that the chefs here are passionate
+                        about their craft. A definite must-visit for any food enthusiast!</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/avatar3.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Henry A.</span>
+                        <span>Researcher at FSSAI</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Item5 Ends -->
+    
+            <!-- Item6 Starts -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Salad is fresh</h2>
+                    </div>
+                    <p>We stumbled upon this restaurant by chance and were
+                        pleasantly surprised by the gastronomic journey it offered.
+                        The menu boasted a fusion of flavors that intrigued our taste
+                        buds. With each dish expertly crafted and bursting with
+                        freshness, it's evident that the chefs here are passionate
+                        about their craft. A definite must-visit for any food enthusiast!</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/avatar3.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Henry A.</span>
+                        <span>Researcher at FSSAI</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Item6 Ends -->
+    
+        </div>
+        <!-- Owl Carousel Slider Ends -->
+    
+    </div>
+    
+    <!--   *****   JQuery Link   *****   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+    <!--   *****   Owl Carousel js Link  *****  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!--   *****   Link To Custom Script File   *****   -->
+    <script type="text/javascript" src="review.js"></script>
+
+
+
+    
+   
+
+   
+
+     <footer style="background-color: #162938">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/cherrybgdark.png" alt="logo" height="150px" width="150px">
+            </div>
+            <div class="linklist">
+                <h3>Main List</h3>
+                <ul>
+                    <li> <a href="form.html" target="_blank">Order Tracking</a></li>
+                    <li><a href="menucontainer.html" target="_blank">New Order</a></li>
+                    <li><a href="form.html" target="_blank">Contact</a></li>
+                    <li><a href="#id">News & Blogs</a></li>
+                </ul>
+            </div>
+            <div class="linklist">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#id">About Us</a></li>
+                    <li><a href="#id">Privacy & policy</a</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <input type="email" placeholder="Enter Email...">
+                <h3>Follow Us</h3>
+                <div class="icon-con">
+                    <div class="icon">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script src="jsfile.js"></script>
+    <script>https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js</script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+        
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Milshake",
+        "price": 200,
+        "image": "images/properlysaved/ms1.jpeg"
+    },
+    {
+        "id": 2,
+        "name":"Milshake",
+        "price": 250,
+        "image": "images/properlysaved/ms2.jpeg"
+    },
+    {
+        "id": 3,
+        "name":" Milshake",
+        "price": 290,
+        "image": "images/properlysaved/ms3.jpeg"
+    },
+    {
+        "id": 4,
+        "name":"Milshake",
+        "price": 200,
+        "image": "images/properlysaved/ms4.jpeg"
+    },
+    {
+        "id": 5,
+        "name":"Milshake",
+        "price": 300,
+        "image": "images/properlysaved/ms5.jpeg"
+    },
+    {
+        "id": 6,
+        "name":"Milshake",
+        "price": 200,
+        "image": "images/properlysaved/ms6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Milshake",
+        "price": 200,
+        "image": "images/properlysaved/ms7.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Milshake",
+        "price": 200,
+        "image": "images/properlysaved/ms8.jpg"
+    }
+
+]

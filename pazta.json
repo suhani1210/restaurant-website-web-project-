@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Pasta",
+        "price": 200,
+        "image": "images/properlysaved/pazta1.jpeg"
+    },
+    {
+        "id": 2,
+        "name":" Pasta",
+        "price": 250,
+        "image": "images/properlysaved/pazta2.jpeg"
+    },
+    {
+        "id": 3,
+        "name":" Pasta",
+        "price": 290,
+        "image": "images/properlysaved/pazta3.jpeg"
+    },
+    {
+        "id": 4,
+        "name":" Pasta",
+        "price": 200,
+        "image": "images/properlysaved/pazta4.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Pasta",
+        "price": 300,
+        "image": "images/properlysaved/pazta5.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Pasta",
+        "price": 200,
+        "image": "images/properlysaved/pazta6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Pasta",
+        "price": 200,
+        "image": "images/properlysaved/pazta7.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Pasta",
+        "price": 200,
+        "image": "images/properlysaved/pazta8.jpg"
+    }
+
+]

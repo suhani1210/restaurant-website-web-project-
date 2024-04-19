@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Donut",
+        "price": 200,
+        "image": "images/properlysaved/bread1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Donut",
+        "price": 250,
+        "image": "images/properlysaved/bread2.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Donut",
+        "price": 290,
+        "image": "images/properlysaved/bread3.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Donut",
+        "price": 200,
+        "image": "images/properlysaved/bread4.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Donut",
+        "price": 300,
+        "image": "images/properlysaved/bread5.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Donut",
+        "price": 200,
+        "image": "images/properlysaved/bread6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Donut",
+        "price": 200,
+        "image": "images/properlysaved/bread7.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Donut",
+        "price": 200,
+        "image": "images/properlysaved/bread8.jpg"
+    }
+
+]

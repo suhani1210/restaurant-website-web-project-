@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Juice",
+        "price": 200,
+        "image": "images/properlysaved/drink1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Juice",
+        "price": 250,
+        "image": "images/properlysaved/drink2.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Juice",
+        "price": 290,
+        "image": "images/properlysaved/drink3.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Juice",
+        "price": 200,
+        "image": "images/properlysaved/drink4.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Juice",
+        "price": 300,
+        "image": "images/properlysaved/drink5.jpg"
+    },
+    {
+        "id": 6,
+        "name":"Juice",
+        "price": 200,
+        "image": "images/properlysaved/drink6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Juice",
+        "price": 200,
+        "image": "images/properlysaved/drink7.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Juice",
+        "price": 200,
+        "image": "images/properlysaved/drink8.jpg"
+    }
+
+]

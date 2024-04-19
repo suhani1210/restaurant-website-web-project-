@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" CAKE",
+        "price": 200,
+        "image": "images/properlysaved/pastry1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" CAKE",
+        "price": 250,
+        "image": "images/properlysaved/pastry2.jpg"
+    },
+    {
+        "id": 3,
+        "name":" CAKE",
+        "price": 290,
+        "image": "images/properlysaved/pastry3.jpg"
+    },
+    {
+        "id": 4,
+        "name":" CAKE",
+        "price": 200,
+        "image": "images/properlysaved/pastry4.jpg"
+    },
+    {
+        "id": 5,
+        "name":"  CAKE",
+        "price": 300,
+        "image": "images/properlysaved/pastry5.jpg"
+    },
+    {
+        "id": 6,
+        "name":"  CAKE",
+        "price": 200,
+        "image": "images/properlysaved/pastry6.jpg"
+    },
+    {
+        "id": 7,
+        "name":"  CAKE",
+        "price": 200,
+        "image": "images/properlysaved/pastry7.jpg"
+    },
+    {
+        "id": 8,
+        "name":"  CAKE",
+        "price": 200,
+        "image": "images/properlysaved/pastry8.jpg"
+    }
+
+]
